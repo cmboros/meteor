@@ -71,7 +71,7 @@ const pinnedPluginVersions = {
   "cordova-plugin-statusbar": "2.3.0",
   "cordova-plugin-test-framework": "1.1.5",
   "cordova-plugin-vibration": "2.1.5",
-  "cordova-plugin-whitelist": "1.3.2",
+  'cordova-plugin-whitelist': 'https://github.com/apache/cordova-plugin-whitelist.git#446ab4fadd91e73f455240bc56acbdcce70550f0',
 }
 
 /**
