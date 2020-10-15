@@ -20,8 +20,8 @@ Npm.strip({
 });
 
 Cordova.depends({
-  //'cordova-plugin-whitelist': '1.3.4',
-  'cordova-plugin-meteor-webapp': 'https://github.com/cmboros/cordova-plugin-meteor-webapp.git#ed95ee67eac91ec49d9e72af86e8e9eb2baec935'
+  'cordova-plugin-whitelist': '1.3.4',
+  'cordova-plugin-meteor-webapp': 'github:cmboros/cordova-plugin-meteor-webapp.git#ed95ee67eac91ec49d9e72af86e8e9eb2baec935'
 });
 
 Package.onUse(function (api) {
