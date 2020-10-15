@@ -12,7 +12,7 @@ Npm.depends({"basic-auth-connect": "1.0.0",
              send: "0.16.1",
              "stream-to-string": "1.1.0",
              "qs": "6.4.0",
-             useragent: "2.3.0", "properties-parser": "0.3.1", });
+             useragent: "2.3.0" });
 
 Npm.strip({
   multiparty: ["test/"],
@@ -21,7 +21,7 @@ Npm.strip({
 
 Cordova.depends({
   'cordova-plugin-whitelist': '1.3.4',
-  'cordova-plugin-meteor-webapp': '1.9.2-beta.0'
+  'cordova-plugin-meteor-webapp': '"https://github.com/costinelmarin/cordova-plugin-meteor-webapp.git#463a22f93785873b6c65aa87a4c5ce6abcef2460"'
 });
 
 Package.onUse(function (api) {
